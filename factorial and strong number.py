@@ -11,7 +11,7 @@ def factorial(number):
 
 def find_strong_numbers(num_list):
     n=[]
-    for j in range(0,(len(num_list)-1)):
+    for j in range(0,(len(num_list))):
         temp=num_list[j]
         sum=0
         while(temp!=0):
